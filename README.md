@@ -2,14 +2,14 @@
 
 Personal portfolio website showcasing my projects, skills, and web development journey.
 
-## 🚀 Technologies Used
+## Technologies Used
 - React.js
 - Tailwind CSS
 - JavaScript
 - HTML5
 - CSS3
 
-## 📌 Features
+## Features
 - Responsive Design
 - Modern UI
 - Animated Sections
@@ -17,15 +17,15 @@ Personal portfolio website showcasing my projects, skills, and web development j
 - Resume Download Button
 - Contact Section
 
-## 📂 Projects Included
+## Projects Included
 - Student Management System
 - Gym Management System
 - College Website with Multiple Pages
 - College Store Management System
 
-## 🔗 Live Website
+## Live Website
 Add your deployed Vercel link here
 
-## 📧 Contact
+## Contact
 LinkedIn: Add your LinkedIn link  
 GitHub: Add your GitHub profile link
