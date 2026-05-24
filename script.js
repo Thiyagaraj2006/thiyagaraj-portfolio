@@ -32,7 +32,6 @@ const projects = [
     description:
       "Designed and developed a responsive multi-page college website.",
     link: "https://github.com/Thiyagaraj2006/College-Website-with-Multiple-Pages"
-    
   },
 
   {
@@ -79,7 +78,7 @@ projects.forEach((project) => {
     <p>${project.description}</p>
 
     <a
-      href="${projcet.link}"
+      href="${project.link}"
       target="_blank"
       rel="noreferrer"
     >
