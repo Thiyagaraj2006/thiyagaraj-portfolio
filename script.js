@@ -27,11 +27,11 @@ const projects = [
   },
 
   {
-    title: "College Website with Multiple Pages",
+    title: "Todolist Pages",
     tech: "HTML • CSS",
     description:
-      "Designed and developed a responsive multi-page college website.",
-    link: "https://github.com/Thiyagaraj2006/College-Website-with-Multiple-Pages"
+      "A simple Todo List web page developed using HTML and basic CSS. This project includes task tables, checkboxes, radio buttons, and daily task tracking sections to help organize daily activities in a structured way",
+    link: "https://github.com/Thiyagaraj2006/ToDolist"
   },
 
   {
@@ -40,7 +40,26 @@ const projects = [
     description:
       "Created a clean frontend interface for a college store management system.",
     link: "https://github.com/Thiyagaraj2006/College-Store-Management-System"
-  }
+  },
+
+  {
+    title: "College Website with Multiple Pages",
+    tech: "HTML • CSS",
+    description:
+      "Designed and developed a responsive multi-page college website.",
+    link: "https://github.com/Thiyagaraj2006/College-Website-with-Multiple-Pages",
+    website: "https://college-website-with-multiple-pages.vercel.app/"
+  },
+
+  {
+    title: "Portfolio",
+    tech: "HTML • CSS",
+    description:
+      "Personal portfolio website showcasing my projects, skills, and web development journey.",
+    link: "https://github.com/Thiyagaraj2006/thiyagaraj-portfolio",
+    website: "https://thiyagaraj-portfolio.vercel.app/"
+  },
+  
 ];
 
 /* Skills */
@@ -71,20 +90,49 @@ projects.forEach((project) => {
 
   projectCard.innerHTML = `
   
-    <h4>${project.title}</h4>
+  <h4>${project.title}</h4>
 
-    <span class="project-tech">${project.tech}</span>
+  <span class="project-tech">${project.tech}</span>
 
-    <p>${project.description}</p>
+  <p>${project.description}</p>
 
-    <a
-      href="${project.link}"
-      target="_blank"
-      rel="noreferrer"
-    >
-      View Project →
-    </a>
-  
+  <div class="project-buttons">
+
+    ${
+      project.title === "College Website with Multiple Pages" ||
+      project.title === "Portfolio"
+        ? `
+
+        <a
+          href="${project.link}"
+          target="_blank"
+          rel="noreferrer"
+        >
+          View Project →
+        </a>
+
+         <a
+          href="${project.website}"
+          target="_blank"
+          rel="noreferrer"
+          class="visit-btn"
+        >
+          Visit Website
+        </a>
+
+      `
+        : `
+        <a
+          href="${project.link}"
+          target="_blank"
+          rel="noreferrer"
+        >
+          View Project →
+        </a>
+      `
+    }
+
+  </div>
   `;
 
   projectsContainer.appendChild(projectCard);
