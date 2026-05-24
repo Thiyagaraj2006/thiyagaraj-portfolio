@@ -14,28 +14,33 @@ const projects = [
     title: "Student Management System",
     tech: "Python • MySQL",
     description:
-      "Developed a Student Management System using Python and MySQL for storing and managing student information."
+      "Developed a Student Management System using Python and MySQL for storing and managing student information.",
+    link: "https://github.com/Thiyagaraj2006/Student-Management-System"
   },
 
   {
     title: "Gym Management System",
     tech: "Python • MySQL",
     description:
-      "Built a Gym Management System to manage member details and records efficiently."
+      "Built a Gym Management System to manage member details and records efficiently.",
+    link: "https://github.com/Thiyagaraj2006/Gym-Management-System"
   },
 
   {
     title: "College Website with Multiple Pages",
     tech: "HTML • CSS",
     description:
-      "Designed and developed a responsive multi-page college website."
+      "Designed and developed a responsive multi-page college website.",
+    link: "https://github.com/Thiyagaraj2006/College-Website-with-Multiple-Pages"
+    
   },
 
   {
     title: "College Store Management System",
     tech: "HTML • CSS",
     description:
-      "Created a clean frontend interface for a college store management system."
+      "Created a clean frontend interface for a college store management system.",
+    link: "https://github.com/Thiyagaraj2006/College-Store-Management-System"
   }
 ];
 
@@ -74,7 +79,7 @@ projects.forEach((project) => {
     <p>${project.description}</p>
 
     <a
-      href="https://github.com/thiyagaraj-dev"
+      href="${projcet.link}"
       target="_blank"
       rel="noreferrer"
     >
