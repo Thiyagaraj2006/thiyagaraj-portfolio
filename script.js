@@ -53,7 +53,7 @@ const projects = [
 
   {
     title: "Portfolio",
-    tech: "HTML • CSS",
+    tech: "HTML • CSS • Javascript",
     description:
       "Personal portfolio website showcasing my projects, skills, and web development journey.",
     link: "https://github.com/Thiyagaraj2006/thiyagaraj-portfolio",
