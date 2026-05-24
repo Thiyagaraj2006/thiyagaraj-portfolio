@@ -25,5 +25,5 @@ Personal portfolio website showcasing my projects, skills, and web development j
  Webside: https://thiyagaraj-portfolio.vercel.app/
 
 ## Contact
-LinkedIn: Add your LinkedIn link  
-GitHub: Add your GitHub profile link
+GitHub: https://github.com/Thiyagaraj2006
+LinkedIn: https://www.linkedin.com/in/thiyagaraj-d-545788328
