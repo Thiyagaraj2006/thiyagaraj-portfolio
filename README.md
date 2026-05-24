@@ -3,8 +3,6 @@
 Personal portfolio website showcasing my projects, skills, and web development journey.
 
 ## Technologies Used
-- React.js
-- Tailwind CSS
 - JavaScript
 - HTML5
 - CSS3
