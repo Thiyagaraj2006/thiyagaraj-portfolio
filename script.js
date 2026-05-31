@@ -2,7 +2,6 @@ const skills = [
   "HTML5",
   "CSS3",
   "JavaScript",
-  "React.js",
   "Python",
   "MySQL",
   "GitHub",
